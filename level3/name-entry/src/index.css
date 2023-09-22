@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-image: url(concrete.jpg);
+  background-size:150vh;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+}
+
+form {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+input[type="text"] {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  color: rgb(189, 25, 25);
+}
+
+li {
+  width: 10rem;
+  text-align: center;
+  margin: 0 auto;
+  text-align: left;
+}
+
+button {
+  font-size: 2rem;
+}

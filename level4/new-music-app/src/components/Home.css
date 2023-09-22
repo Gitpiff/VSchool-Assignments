@@ -1,0 +1,29 @@
+p {
+  color:white;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.imageDiv > a > img {
+  box-sizing: border-box;
+  width: 33.33%;
+  object-fit: contain;
+}
+
+.imageDiv > a:hover {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+@media (max-width: 800px ) {
+  .imageDiv > a > img {
+    width: 50vw;
+  }
+  .imageContainer {
+    text-align: center;
+  }
+}

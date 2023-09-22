@@ -1,0 +1,14 @@
+.track {
+  text-align: center;
+}
+iframe {
+  box-sizing: border-box;
+  height: 94.7vh;
+  width: 100vw;
+}
+
+@media (max-width: 800px ) {
+  iframe {
+    height: 91.7vh;
+  }
+}
